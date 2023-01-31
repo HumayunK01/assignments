@@ -113,7 +113,6 @@ header .button input:hover {
 
 .hero .section1 .assignment .card .pic img {
   width: 100%;
-  filter: brightness(90%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -131,14 +130,11 @@ header .button input:hover {
   margin-bottom: 10px;
 }
 
-.hero .section1 .assignment .card .info a {
+.hero .section1 .assignment .card .info .links a {
   color: #262a2f;
-  font-size: 40px;
+  font-size: 30px;
   transition: all ease 0.3s;
-}
-
-.hero .section1 .assignment .card .info a:hover{
-    transform: translateY(-5px);
+  margin-left: 5px;
 }
 
 @media only screen and (max-width: 820px) {
