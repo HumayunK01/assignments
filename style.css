@@ -159,6 +159,9 @@ header .button input:hover {
 }
 
 @media only screen and (max-width: 435px) {
+  .hero .section1 .title .info h1 {
+    font-size: 23px;
+  }
   .hero .section1 .assignment {
     flex-direction: column;
   }
