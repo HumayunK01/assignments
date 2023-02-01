@@ -105,7 +105,7 @@ header .button input:hover {
   display: flex;
   background-color: #f0f0f0;
   flex-direction: column;
-  border: 1px solid #e65326;
+  border: 1px solid #2760e6;
   border-radius: 5px;
   box-shadow: rgba(148, 148, 155, 0.2) 0px 7px 29px 0px;
   filter: blur(3px);
@@ -115,9 +115,6 @@ header .button input:hover {
 
 .hero .section1 .assignment .card:hover {
   filter: blur(0);
-}
-.hero .section1 .assignment .card2 {
-  border: 1px solid #2760e6;
 }
 
 .hero .section1 .assignment .card .pic img {
