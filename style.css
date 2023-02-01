@@ -59,6 +59,11 @@ header .button input:hover {
 
 .hero {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .hero .section1 {
@@ -77,14 +82,6 @@ header .button input:hover {
   justify-content: center;
 }
 
-.hero .section1 .title .img {
-  width: 25%;
-}
-
-.hero .section1 .title .img img {
-  width: 100%;
-}
-
 .hero .section1 .title .info {
   margin-left: 10px;
   margin-bottom: 6px;
@@ -92,9 +89,15 @@ header .button input:hover {
 
 .hero .section1 .assignment {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+
+.hero .section1 .assignment .cardss {
+  display: flex;
+  gap: 20px;
 }
 
 .hero .section1 .assignment .card {
@@ -105,8 +108,14 @@ header .button input:hover {
   border: 1px solid #e65326;
   border-radius: 5px;
   box-shadow: rgba(148, 148, 155, 0.2) 0px 7px 29px 0px;
+  filter: blur(3px);
+  cursor: pointer;
+  transition: all ease 0.4s;
 }
 
+.hero .section1 .assignment .card:hover {
+  filter: blur(0);
+}
 .hero .section1 .assignment .card2 {
   border: 1px solid #2760e6;
 }
@@ -141,17 +150,28 @@ header .button input:hover {
   .hero .section1 .assignment {
     flex-direction: column;
   }
+  .hero .section1 .assignment .card {
+    filter: blur(0);
+  }
+  .hero .section1 .assignment .cardss {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 435px) {
   .hero .section1 .assignment {
     flex-direction: column;
   }
-
+  .hero .section1 .assignment .card {
+    filter: blur(0);
+  }
+  .hero .section1 .assignment .cardss {
+    flex-direction: column;
+  }
   .hero .section1 .assignment .card {
     width: 300px;
   }
-  .hero .section1 .assignment .card .info h2{
+  .hero .section1 .assignment .card .info h2 {
     font-size: 15px;
   }
   .hero .section1 .assignment .card .info .links a {
