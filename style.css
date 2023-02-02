@@ -108,13 +108,7 @@ header .button input:hover {
   border: 1px solid #2760e6;
   border-radius: 5px;
   box-shadow: rgba(148, 148, 155, 0.2) 0px 7px 29px 0px;
-  filter: blur(3px);
   cursor: pointer;
-  transition: all ease 0.4s;
-}
-
-.hero .section1 .assignment .card:hover {
-  filter: blur(0);
 }
 
 .hero .section1 .assignment .card .pic img {
@@ -139,8 +133,12 @@ header .button input:hover {
 .hero .section1 .assignment .card .info .links a {
   color: #262a2f;
   font-size: 30px;
-  transition: all ease 0.3s;
+  transition: all ease 0.2s;
   margin-left: 5px;
+}
+
+.hero .section1 .assignment .card .info .links a:hover{
+  color: #2760e6;
 }
 
 @media only screen and (max-width: 1230px) {
