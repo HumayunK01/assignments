@@ -19,7 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  height: 90px;
+  height: 80px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
 }
@@ -58,7 +58,9 @@ header .button input:hover {
 }
 
 .hero {
+  margin-top: 20px;
   width: 100%;
+  height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   justify-content: center;
@@ -73,18 +75,6 @@ header .button input:hover {
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
-}
-
-.hero .section1 .title {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .section1 .title .info {
-  margin-left: 10px;
-  margin-bottom: 6px;
 }
 
 .hero .section1 .assignment {
@@ -137,7 +127,7 @@ header .button input:hover {
   margin-left: 5px;
 }
 
-.hero .section1 .assignment .card .info .links a:hover{
+.hero .section1 .assignment .card .info .links a:hover {
   color: #2760e6;
 }
 
